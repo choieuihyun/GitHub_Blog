@@ -4,9 +4,7 @@
 > 내가 생각하고 아는대로 적는 고찰  
 > 남들처럼 길게 정리 못하겠다.
 
-## 즐겨찾기 기능 구현 방법?
-
-### 1. Room DB 이용
+ **1. Room DB 이용**
 
 뭐 다른 블로그 가서 글 보니까 이런 유형의 글이 있더라.
 
@@ -44,7 +42,7 @@ recyclerViewAdapter.setOnFavoriteButtonClickListener { // 실제 내 코드
 코드에는 false로 초기화 해놨지만 제대로 구현한다면 viewModel에 상태 변수를 만들어두고 그에 따른 제어를 해야할 것이라 생각한다.  
 > **여기서 의문점이 하나 생긴다. 굳이 이렇게 해야하나? 머리 아픈데?** 
 
-## 2. SharedPreference 이용
+ **2. SharedPreference 이용**
 
 내가 즐겨찾기 기능 구현할 때 버튼 상태를 SharedPreference로 구현하는 가장 중요한 이유 하나가 있다. **(뇌피셜 주의)**  
 
