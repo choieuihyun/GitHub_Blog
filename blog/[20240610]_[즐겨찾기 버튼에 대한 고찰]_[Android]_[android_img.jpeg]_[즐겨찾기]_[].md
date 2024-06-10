@@ -46,7 +46,7 @@ recyclerViewAdapter.setOnFavoriteButtonClickListener { // 실제 내 코드
 
 내가 즐겨찾기 기능 구현할 때 버튼 상태를 SharedPreference로 구현하는 가장 중요한 이유 하나가 있다. **(뇌피셜 주의)**  
 
-![이미지](../img/kcal_list.png)
+![이미지](/img/kcal_list.png)
 
 여기서 보면 검색과 즐겨찾기의 RecyclerView가 같은 데이터 리스트를 가지는가? 아니다.  
 생각의 순서로 다시 나열해보자.  
